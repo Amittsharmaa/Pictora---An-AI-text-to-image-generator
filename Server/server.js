@@ -10,7 +10,7 @@ import connectDB from './config/mongodb.js';
 import userRouter from './routes/userRoutes.js';
 import imageRouter  from './routes/imageRoutes.js';
 
-console.log("CLIPDROP_API Key Loaded:", process.env.CLIPDROP_API ? "Yes" : "No");
+// console.log("CLIPDROP_API Key Loaded:", process.env.CLIPDROP_API ? "Yes" : "No");
 
 
 const PORT = process.env.PORT || 4000;
